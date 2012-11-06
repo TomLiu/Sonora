@@ -1,10 +1,10 @@
-platform :osx
+platform :osx, '10.8'
 
 pod 'MASShortcut'
 pod 'DBPrefsWindowController'
 pod 'SPMediaKeyTap'
 pod 'INAppStoreWindow', :git => 'git://github.com/sonoramac/INAppStoreWindow.git'
-pod 'AFNetworking'
+pod 'AFNetworking' 
 pod 'INKeychainAccess'
 pod 'HIDRemoteSDK'
 pod 'OEGridView'
